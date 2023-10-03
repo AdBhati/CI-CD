@@ -3,9 +3,9 @@ const app = express();
 
 app.get('/', (req, res) => {
   res.json({
-    msg:'Hello World this is done by divyanshu'
+    msg:'Hello World...'
     });
 });
 
 app.listen(3000);
-console.log('Server is listening on port 3000 updated code....')
+console.log('Server is listening on port 3000')
