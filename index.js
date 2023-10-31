@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     });
 });
 
-app.get('/test', (req, res) => {
+app.get('/test/show', (req, res) => {
   res.json({
     msg:'Hello World...This is update message'
     });
